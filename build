@@ -430,6 +430,7 @@ cd "$PACKAGES"/ffmpeg-4.3.1/ || exit
 	--enable-filters \
 	--enable-libvidstab \
 	--enable-libaom \
+	--enable-filter=subtitles \
 	--enable-libsrt
 
 execute make -j $MJOBS
